@@ -106,7 +106,7 @@ const PinDetail = ({ user }) => {
                         </div>
                         {/* postedBy details  */}
                         <Link to={`/user-profile/${pinDetail?.postedBy?._id}`} className="flex gap-2 mt-5 items-center bg-white rounded-lg ">
-                            pinDetail?.postedBy.image && <img src={'pinDetail?.postedBy.image'} className="w-10 h-10 rounded-full" alt="user-profile" />
+                            <img src={'pinDetail?.postedBy.image'} className="w-10 h-10 rounded-full" alt="" />
                             <p className="font-bold">{pinDetail?.postedBy?.userName}</p>
                         </Link>
                         <h2 className="mt-5 text-2xl">Comments</h2>
