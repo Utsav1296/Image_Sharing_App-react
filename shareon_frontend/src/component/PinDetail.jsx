@@ -93,7 +93,7 @@ const PinDetail = ({ user }) => {
                                 </a>
                             </div>
                             {/* destination detail  */}
-                            <a href='' target="_blank" rel="noreferrer">
+                            <a href={pinDetail.destination} target="_blank" rel="noreferrer">
                                 {pinDetail.destination?.slice(8)}
                             </a>
                         </div>
